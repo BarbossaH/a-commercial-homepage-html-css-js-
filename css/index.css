@@ -1,0 +1,273 @@
+
+.main_content{
+  width: 980px;
+   height: 455px;
+   margin-left: 219px;
+   margin-top: 10px;
+   /* background-color: seashell; */
+}
+
+.banner{
+  position: relative;
+  width: 721px;
+  height: 455px;
+  background-color: springgreen;
+  overflow: hidden;
+}
+
+.main_content [class^="arrow_"]{
+  font-family: 'icomoon';
+  position: absolute;
+  top: 50%;
+  margin-top: -15px;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+  color: #fff;
+  font-size: 18px;
+  background-color: rgba(0, 0, 0, 0.3);
+  z-index: 2;
+}
+
+.arrow_left {
+ left: 10px;
+}
+
+.arrow_right {
+  right: 10px;
+}
+
+.banner ul {
+  /* 设置定位是为了后面js可以控制 */
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 600%;
+}
+.banner ul li {
+  float: left;
+}
+.small_dots {
+  position: absolute;
+  /* bottom: 20px; */
+  left: 50%;
+  margin-top: 55%;
+  margin-left: -50px;
+  background-color: rgba(122, 122, 122, 0.4);
+  padding: 5px;
+  border-radius: 15px;
+}
+
+.small_dots li {
+  float: left;
+  width: 9px;
+  height: 9px;
+  border: 3px solid rgba(255, 255, 255, 0.8);
+  /* border: 2px solid red; */
+  margin: 2px 5px;
+  border-radius: 50%;
+}
+
+.current {
+  background-color: white;
+}
+
+.qiuckreport{
+  float: right;
+  width: 250px;
+  height: 455px;
+  border: 1px solid #cccccc;
+  /* background-color: yellow; */
+}
+.report_title {
+  height: 32px;
+  padding:0 9px;
+  line-height: 32px;
+  font-size: 14px;
+  /* color: #fff; */
+  border-bottom: 1px #ccc dotted;
+}
+.report_title a {
+  float: right;
+  font-family: 'icomoon';
+  line-height: 32px;
+  font-size: 12px;
+}
+.report_content {
+  padding: 10px 0 0 15px;
+  border-bottom: 1px solid #ccc;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.report_content li{
+  height: 23px;
+}
+
+.report_icons{
+  height: 208px;
+  width: 100%;
+  border-bottom: 1px solid #ccc;
+  overflow: hidden;
+  /* background-color: blue; */
+}
+.report_icons ul{
+  width: 252px;
+
+}
+
+.report_icons li {
+  float: left;
+  width: 62px;
+  height: 70px;
+  border-right: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+.basic_icon{
+  display: block;
+  width: 24px;
+  height: 24px;
+  background: url(../images/icons.png) no-repeat;
+  margin: 10px auto;
+}
+
+.icon_position1 {
+  background-position: -17px -16px;
+}
+
+.icon_position2 {
+  background-position: -78px -16px;
+}
+
+
+.report_icons p{
+  text-align: center;
+}
+
+.report_banner {
+  margin-top: 5px;
+}
+
+.recommendation{
+  height: 163px;
+  margin-top: 9px;
+  background-color: chartreuse;
+}
+
+.rec_beauty img{
+  width: 200px;
+  height:163px;
+}
+.rec_products img{
+  width: 250px;
+  height:163px;
+}
+
+
+
+.product_detials{
+  margin-top: 15px;
+}
+.details_nav {
+  height: 30px;
+  /* line-height: 30px; */
+  border-bottom: 2px solid #c81623;
+}
+.nav_list li{
+  float: left;
+  line-height: 30px;
+}
+
+.nav_list a{
+  padding: 0 10px;
+}
+.details_picture{
+  height: 360px;
+}
+.product_ul li{
+  height: 360px;
+  float: left;
+  overflow: hidden;
+  /* background-color: aquamarine; */
+}
+.product_ul img {
+  transition: all 0.3s;
+}
+.product_ul img:hover {
+  margin-left: -5px;
+}
+
+[class^='product_box'] {
+  background-color: #f9f9f9;
+}
+.product_box1{
+  width: 209px;
+}
+.product_box1 li{
+  float: left;
+  width: 86px;
+  height: 32px;
+  line-height: 32px;
+  border-bottom: 1px solid #ccc;
+  margin-left: 10px;
+  text-align: center;
+}
+
+
+
+.product_box1 img {
+  margin-top:10px;
+} 
+.product_box2{
+  width: 329px;  
+}
+.product_box3{
+  width: 219px;
+  border-right: 1px solid #ccc;
+
+}
+
+.border_bottom {
+  /* background-color: chartreuse; */
+  border-bottom: 1px solid #ccc;
+ }
+.product_box4{
+  width: 220px;
+  border-right: 1px solid #ccc;
+  
+}
+.product_box5{
+  width: 220px;
+  border-right: 1px solid #ccc;
+  
+}
+
+
+.fix_window{
+  position: fixed;
+  top: 100px;
+  left: 3px;
+  width: 63px;
+  border: 1px solid #ccc;
+  border-bottom: none ;
+  text-align: center;
+  background-color: #fff;
+  /* z-index: 8; */
+}
+
+.fix_window li{
+  height: 32px;
+  line-height: 32px;
+  border-bottom: 1px solid #ccc ;
+  cursor: pointer;
+}
+
+.fix_window .selected{
+  background-color: #4a5e78;
+  color: #fff;
+}
+.fix_window .default{
+  background-color: #fff;
+  color: #666;
+}

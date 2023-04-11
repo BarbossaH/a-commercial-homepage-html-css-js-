@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #666666;
+}
+
+i,em{
+  font-style: normal;
+}
+button {
+  cursor: pointer;
+}
+input, button {
+  border: none;
+  outline: none;
+}
+a:hover {
+	color: #e33333;
+
+}
+
+body{
+  /* 这是网页默认的字体颜色，如果element没有设定就使用这个颜色 */
+  background-color: #fff;
+  font: 12px/1.5 'Microsoft YaHei', 'Heiti SC', tahoma, arial, 'Hiragino Sans GB', \\5B8B\4F53, sans-serif;
+  color: #666
+}
+
+/*清除浮动*/
+.clearfix:after {
+  visibility: hidden;
+  clear: both;
+  display: block;
+  content: ".";
+  height: 0
+}
+
+.clearfix {
+  *zoom: 1
+}
